@@ -1,0 +1,22 @@
+<div class="col-xs-offset-1">
+    <h1>New Research Post</h1>
+    <div class="form-group">
+        <lable>Title:</lable>
+        <input type="text" ng-required="true" class="form-control" placeholder="Title" ng-model="title">
+    </div>
+    <div class="form-group">
+        <lable>Location:</lable>
+        <input type="text" class="form-control" placeholder="Location" ng-model="location">
+    </div>
+    <div class="form-group">
+        <lable>Time:</lable>
+        <input type="text" class="form-control" placeholder="Time" ng-model="time">
+    </div>
+    <div class="form-group">
+        <lable>Content:</lable>
+        <textarea class="form-control" style="height:400px" ng-model="content"></textarea>
+    </div>
+    <br/>
+    <br/>
+    <button type="button" ng-click="newPost()">Submit</button>
+</div>

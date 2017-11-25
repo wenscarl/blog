@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<title>Blog - Shu Wang</title>
+		<link rel="stylesheet" href="style/css/bootstrap.css">
+	</head>
+
+	<body style="padding-top: 10px">
+ 		<div class="container">
+ 			<navigationbar></navigationbar>
+ 			<div class="row">
+                <div class="col-xs-3">
+                    <info></info>
+                </div>
+                <div class="col-xs-9">
+                    <div ng-view></div>
+                </div>
+            </div>
+ 		</div>
+
+ 		<script src="js/jquery.js"></script>
+ 		<script src="js/bootstrap.js"></script>
+ 		<script src="js/angular.js"></script>
+ 		<script src="js/angular-route.js"></script>
+		<script src="js/ng-pdfviewer.js"></script>
+		<script src="js/pdf.js"></script>
+		<script src="js/pdf.compat.js"></script>
+		<script src="js/aws-sdk-2.9.0.min.js"></script>
+		<script src="app/app.js"></script>
+ 		<script src="app/controller.js"></script>
+ 		<script src="app/directive.js"></script>
+
+	</body>
+</html>

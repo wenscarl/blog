@@ -1,0 +1,22 @@
+<div class="col-xs-offset-1">
+    <h1>Edit Research Post</h1>
+    <div class="form-group">
+        <lable>Title:</lable>
+        <input type="text" ng-required="true" class="form-control" placeholder={{post.title}} ng-model="title">
+    </div>
+    <div class="form-group">
+        <lable>Location:</lable>
+        <input type="text" class="form-control" placeholder={{post.location}} ng-model="location">
+    </div>
+    <div class="form-group">
+        <lable>Time:</lable>
+        <input type="text" class="form-control" placeholder={{post.time}} ng-model="time">
+    </div>
+    <div class="form-group">
+        <lable>Content:</lable>
+        <textarea class="form-control" style="height:400px" placeholder={{post.content}} ng-model="content"></textarea>
+    </div>
+    <br/>
+    <br/>
+    <button type="button" ng-click="newPost()">Submit</button>
+</div>
