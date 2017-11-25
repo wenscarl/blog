@@ -1,8 +1,8 @@
 AWS.config.update({
 	region: "us-east-1",
 	endpoint: "https://dynamodb.us-east-1.amazonaws.com",
-	accessKeyId: "",
-	secretAccessKey: ""
+	accessKeyId: "AKIAIFIYZF3IZNYX3U5A",
+	secretAccessKey: "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"
 });
 
 angular.module('app.controller',[
